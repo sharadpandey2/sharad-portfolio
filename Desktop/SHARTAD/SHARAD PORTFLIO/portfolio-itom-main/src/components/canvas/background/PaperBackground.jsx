@@ -25,7 +25,7 @@ const PaperBackground = () => {
                 <planeGeometry args={[25, 18]} />
                 <meshBasicMaterial
                     map={paperTexture}
-                    color="#fafafa"
+                    color="#fff8e1"
                     roughness={1}
                     metalness={0}
                 />
@@ -35,7 +35,7 @@ const PaperBackground = () => {
             <mesh position={[0, -2.5, -2]} rotation={[-Math.PI / 2.5, 0, 0]}>
                 <planeGeometry args={[20, 15]} />
                 <meshBasicMaterial
-                    color="#f5f5f5"
+                    color="#eae0c8"
                     roughness={1}
                     metalness={0}
                     transparent
